@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #130924;
+    color: #f1ebfc;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 20px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    background-color: #1a0f33;
+    padding: 30px;
+    border: 3px solid #ff00ff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.3);
+}
+
+.cart-box {
+    background-color: #1e113c;
+    border: 2px dashed #00ffff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.cart-box h3 {
+    margin-top: 0;
+    color: #00ffff;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#cart-items li {
+    background-color: #2d1a54;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 3px solid #ff00ff;
+}
+
+#cart-items li.empty-cart {
+    border-left: none;
+    color: #8a7fa4;
+    background: transparent;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #231545;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.menu a {
+    display: inline-block;
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: 2px solid #00ffff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #00ffff;
+    color: #130924;
+    box-shadow: 0 0 15px #00ffff;
+    transform: translateY(-2px);
+}
+
+.content {
+    background-color: #1a0f33;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #ff00ff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #ff00ff;
+    margin-top: 0;
+}
+
+.remove-btn {
+    background: transparent;
+    border: none;
+    color: #ff4a4a;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.remove-btn:hover {
+    color: #ff0000;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 14px;
+    color: #8a7fa4;
+    border-top: 1px solid #231545;
+}
